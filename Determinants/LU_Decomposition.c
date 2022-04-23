@@ -1,25 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 //Change this variable to input different files.
-//NOTE: Overflow is an issue for SIZE>512. Solve this later cuz I'm tired right now.
-#define SIZE 128
+//NOTE: Overflow is an issue for SIZE>=512. Solve this later cuz I'm tired right now.
+#define SIZE 256
 
 int count_digits();
+void perform_LU_Decomposition(double matrix[SIZE][SIZE]);
 void read_matrix(double array[SIZE][SIZE]);
 double calculate_det(double matrix[SIZE][SIZE]);
+double calculate_log_det(double matrix[SIZE][SIZE]);
 
 int main(int argc, char *argv[]) {
 	
 	double matrix[SIZE][SIZE];
 	read_matrix(matrix);
+	perform_LU_Decomposition(matrix);
 	double det = calculate_det(matrix);
+	double log_det = calculate_log_det(matrix);
 	printf("%lf\n", det);
+	printf("%lf\n", log_det);
 	
 	return 0;
 }
 
-double calculate_det(double matrix[SIZE][SIZE]) {
+
+void perform_LU_Decomposition(double matrix[SIZE][SIZE]) {
 	int i, j, k;
 	
 	for (int i = 0; i < SIZE; i++) {
@@ -30,15 +37,26 @@ double calculate_det(double matrix[SIZE][SIZE]) {
 			}
 		}
 	}
-	
+}
 
+double calculate_det(double matrix[SIZE][SIZE]) {
+	int i;
 	double det = 1;
 	for (i = 0; i < SIZE; i++) {
 		det *= (matrix[i][i]);
 	}
 
 	return det;
+}
 
+double calculate_log_det(double matrix[SIZE][SIZE]) {
+	int i;
+	double det = 0;
+	for (i = 0; i < SIZE; i++) {
+		det += log10(fabs(matrix[i][i]));
+	}
+
+	return det;
 }
 int count_digits() {
 	int count = 0;
