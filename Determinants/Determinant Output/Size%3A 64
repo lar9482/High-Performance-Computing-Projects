@@ -1,0 +1,42 @@
+1 threads
+File: /home/lar9482/Final_Project_1/m0064x0064.bin
+Size: 64
+Det: 37889891.273514
+Log Det: 7.578523
+Time: 0.0002983249723911
+
+2 threads
+File: /home/lar9482/Final_Project_1/m0064x0064.bin
+Size: 64
+Det: 37889891.273514
+Log Det: 7.578523
+Time: 0.0004452797584236
+
+4 threads
+File: /home/lar9482/Final_Project_1/m0064x0064.bin
+Size: 64
+Det: 37889891.273514
+Log Det: 7.578523
+Time: 0.0004620826803148
+
+8 threads
+File: /home/lar9482/Final_Project_1/m0064x0064.bin
+Size: 64
+Det: 37889891.273514
+Log Det: 7.578523
+Time: 0.0005399738438427
+
+16 threads
+File: /home/lar9482/Final_Project_1/m0064x0064.bin
+Size: 64
+Det: 37889891.273514
+Log Det: 7.578523
+Time: 0.0008668368682265
+
+32 threads
+File: /home/lar9482/Final_Project_1/m0064x0064.bin
+Size: 64
+Det: 37889891.273514
+Log Det: 7.578523
+Time: 0.0186105351895094
+
