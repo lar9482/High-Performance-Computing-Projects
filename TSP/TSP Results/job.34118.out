@@ -1,0 +1,11 @@
+[Process 3] Searched 40927 paths and found best path 36064
+[Process 0] Searched 41363 paths and found best path 35868
+[Process 2] Searched 41491 paths and found best path 36163
+[Process 1] Searched 41971 paths and found best path 36347
+[Process 6] Searched 41024 paths and found best path 36445
+[Process 7] Searched 41267 paths and found best path 36611
+[Process 5] Searched 41731 paths and found best path 36430
+[Process 4] Searched 41673 paths and found best path 36137
+Reducton Result: [0] 35868 [1] 0
+Best Path Found Cost: 35868
+142 779 421 474 799 898 147 984 927 98 

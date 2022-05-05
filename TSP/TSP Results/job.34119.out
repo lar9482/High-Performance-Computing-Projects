@@ -1,0 +1,13 @@
+[Process 1] Searched 53491 paths and found best path 24815
+[Process 0] Searched 53567 paths and found best path 24553
+[Process 4] Searched 53548 paths and found best path 24668
+[Process 6] Searched 54271 paths and found best path 24522
+[Process 7] Searched 53692 paths and found best path 24483
+[Process 3] Searched 53520 paths and found best path 24665
+[Process 2] Searched 53852 paths and found best path 24904
+[Process 5] Searched 53467 paths and found best path 24960
+Reducton Result: [0] 24483 [1] 7
+[Process 0] Entering recv mode...
+[Process 7] Entering send mode...
+BestPathCost: 24483
+427 2 998 926 59 320 903 111 42 985 

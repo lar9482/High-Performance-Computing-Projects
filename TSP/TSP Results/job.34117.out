@@ -1,0 +1,21 @@
+Rank: 0
+Rank: 1
+Rank: 2
+Rank: 3
+Rank: 6
+Rank: 5
+Rank: 7
+Rank: 4
+[Process 6] Searched 31752 paths and found best path 48491
+[Process 2] Searched 32269 paths and found best path 48532
+[Process 0] Searched 32908 paths and found best path 48481
+[Process 1] Searched 32111 paths and found best path 48122
+[Process 3] Searched 32473 paths and found best path 48753
+[Process 7] Searched 32803 paths and found best path 48324
+[Process 5] Searched 32772 paths and found best path 48621
+[Process 4] Searched 33356 paths and found best path 48548
+[Process 1] Entering send mode...
+Reducton Result: [0] 48122 [1] 1
+[Process 0] Entering recv mode...
+BestPathCost: 48122
+56 400 598 354 892 68 388 792 327 572 
