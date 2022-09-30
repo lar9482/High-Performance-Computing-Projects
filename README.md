@@ -1,4 +1,4 @@
-## Luke Runnels's contributions:
+## Luke Runnels' contributions:
   - A shared memory multi-threaded LU decomposition algorithm for calculating determinants for NxN matrices.
   - A shared memory multi-threaded ant colony optimization algorithm for solving the traveling salesperson problem.
   
